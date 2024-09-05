@@ -1,0 +1,56 @@
+/* Title Block Styles */
+.title-block {
+    background-image: url('images/Programming-languages-and-uses.jpg'); /* Add your background image here */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #333;
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff; /* White color for text */
+}
+
+/* Navigation Styles */
+.navigation {
+    background-color: #2C3E50; /* Dark blue background for nav */
+    padding: 10px;
+}
+
+.navigation ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    display: flex; /* Displays items in a row */
+    gap: 15px;
+    justify-content: center; /* Centers the nav items */
+}
+
+.navigation a {
+    text-decoration: none; /* Removes underline */
+    color: #fff; /* White text color */
+    font-weight: bold; /* Makes text bold */
+}
+
+/* Main Content Styles */
+.content {
+    padding: 20px;
+    background-color: #ECF0F1; /* Light gray background */
+    font-family: 'Arial', sans-serif; /* Arial font */
+    color: #333; /* Dark text color */
+}
+
+.main-image {
+    display: block; /* Centers image */
+    margin: 0 auto; /* Auto margins to center */
+    width: 50%; /* Makes the image 50% of the container width */
+}
+
+/* Footer Styles */
+.site-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #34495E; /* Dark blue for footer */
+    color: #fff; /* White text color */
+}
